@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "react/prefer-stateless-function": ["enabled", { "ignorePureComponents": "ignorePureComponents" }],
+    "sort-keys": ["error", "asc", {"caseSensitive": true, "natural": false}],
+    "function-paren-newline": ["error", "consistent"]
+  },
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  }
+}

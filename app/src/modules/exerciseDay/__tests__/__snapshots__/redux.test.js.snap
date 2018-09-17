@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selector tests should work 1`] = `
+Array [
+  Object {
+    "values": Array [
+      Object {
+        "reps": "5",
+        "sets": 2,
+        "type": "Bicep Curls",
+        "weight": "5",
+      },
+    ],
+  },
+  Object {
+    "values": Array [],
+  },
+  Object {
+    "values": Array [],
+  },
+  Object {
+    "values": Array [],
+  },
+]
+`;

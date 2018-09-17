@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render tests doesnt crash 1`] = `
+<View
+  keyboardVerticalOffset={0}
+  onLayout={[Function]}
+  style={
+    Array [
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "marginLeft": "10%",
+          "width": "80%",
+        },
+        undefined,
+      ],
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#8585ad",
+          "fontSize": 34,
+          "marginBottom": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    FitLift
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    keyboardType="email-address"
+    onChangeText={[Function]}
+    onSubmitEditing={[Function]}
+    placeholder="username"
+    returnKeyType="next"
+    style={
+      Array [
+        Object {
+          "borderColor": "#fb8c00",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "fontSize": 18,
+          "height": 40,
+          "marginBottom": 20,
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    value="undefined"
+  />
+  <TextInput
+    allowFontScaling={true}
+    autoCorrect={false}
+    onChangeText={[Function]}
+    onSubmitEditing={[Function]}
+    placeholder="password"
+    returnKeyType="go"
+    secureTextEntry={true}
+    style={
+      Array [
+        Object {
+          "borderColor": "#fb8c00",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "fontSize": 18,
+          "height": 40,
+          "marginBottom": 20,
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    value="undefined"
+  />
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    nativeID={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fb8c00",
+          "borderRadius": 4,
+          "height": 40,
+          "justifyContent": "center",
+          "paddingBottom": 5,
+          "paddingLeft": 5,
+          "paddingRight": 5,
+          "paddingTop": 5,
+          "width": "100%",
+        },
+        Object {
+          "width": "100%",
+        },
+      ]
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "color": "white",
+            "fontSize": 24,
+            "justifyContent": "center",
+          },
+          null,
+        ]
+      }
+    >
+      Login
+    </Text>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#cc2900",
+          "fontSize": 18,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Don't have an account?
+    </Text>
+    <View
+      accessibilityComponentType="button"
+      accessibilityLabel={undefined}
+      accessibilityTraits={
+        Array [
+          "button",
+        ]
+      }
+      accessible={true}
+      collapsable={undefined}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={undefined}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "padding": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Sign up
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

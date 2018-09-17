@@ -1,0 +1,428 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render tests doesnt crash 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FB8C00",
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "space-around",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#FBE9E7",
+            "fontSize": 20,
+            "textAlign": "center",
+            "width": 100,
+          },
+          undefined,
+        ]
+      }
+    >
+      Exercise
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#FBE9E7",
+            "fontSize": 20,
+            "textAlign": "center",
+            "width": 75,
+          },
+          undefined,
+        ]
+      }
+    >
+      Sets
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#FBE9E7",
+            "fontSize": 20,
+            "textAlign": "center",
+            "width": 75,
+          },
+          undefined,
+        ]
+      }
+    >
+      Reps
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#FBE9E7",
+            "fontSize": 20,
+            "textAlign": "center",
+            "width": 75,
+          },
+          undefined,
+        ]
+      }
+    >
+      Weight
+    </Text>
+  </View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "values": Array [
+            Object {
+              "reps": "5",
+              "sets": 2,
+              "type": "Bicep Curls",
+              "weight": "5",
+            },
+          ],
+        },
+        Object {
+          "values": Array [
+            Object {
+              "reps": "12",
+              "sets": 3,
+              "type": "Shoulder Press",
+              "weight": "30",
+            },
+          ],
+        },
+        Object {
+          "values": Array [],
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "height": 70,
+                "justifyContent": "space-around",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-start",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": 100,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Bicep Curls
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": 75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": 75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              5
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": 75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              5
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "height": 70,
+                "justifyContent": "space-around",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-start",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": 100,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Shoulder Press
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": 75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              3
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": 75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              12
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": 75,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              30
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;

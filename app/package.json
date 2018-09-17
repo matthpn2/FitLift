@@ -1,0 +1,76 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "coveralls": "^3.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "firebase-tools": "^3.17.4",
+    "jest-expo": "^25.1.0",
+    "jest-serializer-enzyme": "^1.0.0",
+    "jest-styled-components": "^4.11.0-1",
+    "json-server": "^0.12.1",
+    "nock": "^9.1.6",
+    "prop-types": "^15.6.0",
+    "react-dom": "^16.2.0",
+    "react-native-mock": "^0.3.1",
+    "react-native-scripts": "1.10.0",
+    "react-test-renderer": "16.2.0",
+    "redux-mock-store": "^1.5.1",
+    "remote-redux-devtools": "^0.5.12"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios":
+      "REACT_DEBUGGER=\"unset ELECTRON_RUN_AS_NODE && open -g 'rndebugger://set-debugger-loc?port=19001' ||\" npm start",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "test.coverage":
+      "node node_modules/jest/bin/jest.js --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "db": "json-server --watch ./src/api/db.json"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-navigation)"
+    ],
+    "moduleNameMapper": {
+      "styled-components":
+        "<rootDir>/node_modules/styled-components/dist/styled-components.native.cjs.js"
+    },
+    "moduleFileExtensions": ["js"],
+    "collectCoverageFrom": ["**/*.{js,jsx}", "!**/node_modules/**"]
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "cross-fetch": "^1.1.1",
+    "expo": "^25.0.0",
+    "firebase": "^4.9.1",
+    "lodash": "^4.17.5",
+    "moment-timezone": "^0.5.14",
+    "nock": "^9.1.6",
+    "react": "16.2.0",
+    "react-native": "0.52.0",
+    "react-navigation": "^1.0.0-beta.27",
+    "react-navigation-redux-helpers": "^1.0.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1",
+    "styled-components": "^3.1.6"
+  }
+}

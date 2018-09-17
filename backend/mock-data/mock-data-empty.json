@@ -1,0 +1,23 @@
+{
+    "users": {
+        "Swagmo996": {
+            "name": "Teemo",
+            "password": "teemoisgod69"
+        },
+        "SAMPLE_USER": {
+            "name": "Sample User",
+            "password": "asdfasdf1"
+        }
+    },
+    "exercises": {
+
+    },
+    "friends": {
+        "Swagmo996": {
+            "kevanhn": true
+        },
+        "SAMPLE_USER": {
+            "Swagmo996": true
+        }
+    }
+}

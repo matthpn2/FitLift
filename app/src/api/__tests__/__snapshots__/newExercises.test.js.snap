@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`async action creator tests should fetch current exercises 1`] = `
+Array [
+  Object {
+    "type": "REQUEST_NEW_EXERCISES",
+    "user": "SAMPLE_USER",
+  },
+  Object {
+    "data": Object {
+      "SAMPLE_USER": Object {
+        "-L5GDNmo8uZxet9S7mE2": Object {
+          "reps": 12,
+          "timeStamp": 1518407604,
+          "type": "Bicep Curls",
+        },
+        "-L5GDeJnjbOj1SkQRJK8": Object {
+          "reps": 5,
+          "timeStamp": 1518407604,
+          "type": "Shoulder Press",
+        },
+        "-L5GDeeBKCPlTnm-yCiX": Object {
+          "reps": 6,
+          "timeStamp": 1518407604,
+          "type": "Lateral Raises",
+        },
+      },
+    },
+    "type": "RECEIVE_NEW_EXERCISES",
+  },
+]
+`;
