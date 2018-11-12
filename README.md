@@ -13,6 +13,6 @@ Our attachable device consists of an ESP8266 NodeMCU and an MPU-6050 acceleromet
 1. Download the repo.
 2. Make a file called config.h in the wifi example folder with the login credentials of your wifi network.
 3. Compile to the board.
-4. Open serial monitor and follow the instructions.
+4. Open serial monitor and follow the instructions.</br></br>
 
 ![](display_workout.gif)
